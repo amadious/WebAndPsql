@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="title" content="formulaire" />
+
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		</style>	
+	</head>
+
+	<body>
+	
+	<form method"get" action="ajout_mat.php">
+		<pre>
+			Type matériel: <input type="text" name="mat"/>
+			<input type="submit" name="valider" value="Confirmer"/>	
+		</pre>
+	</form>
+
+
+	</body>
+</html>

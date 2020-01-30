@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="title" content="formulaire" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<title>Formulaire pour ajouter une sortie</title>
+</head>
+
+<body>
+	<form method"get" action="ajout_esp.php">
+		<pre>
+			Type esp  :         <input type="text" name="type"/>
+			Couleur   :         <input type="text" name="coulor"/>
+			Nb pattes :         <input type="text" name="nb_patte"/>
+			Ailes     :         <input type="text" name="ailes"/>
+			Informations supp : <input class="champ" type="text" name="infos"/>
+			<input type="submit" name="valider" value="Confirmer"/>	
+		</pre>
+
+</body>
+</html>
